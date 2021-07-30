@@ -1,0 +1,43 @@
+{
+    "name": "MLAB Dental",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "export": "next export"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/williamspacefire/mlab2.0.git"
+    },
+    "keywords": [],
+    "author": "William Spacefire",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/williamspacefire/mlab2.0/issues"
+    },
+    "homepage": "https://github.com/williamspacefire/mlab2.0#readme",
+    "dependencies": {
+        "@chakra-ui/icons": "^1.0.13",
+        "@chakra-ui/react": "^1.6.2",
+        "@emotion/react": "^11.4.0",
+        "@emotion/styled": "^11.3.0",
+        "framer-motion": "^4.1.17",
+        "gray-matter": "^4.0.3",
+        "next": "^10.2.3",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-markdown": "^6.0.2",
+        "rehype-highlight": "^4.1.0",
+        "remark-gfm": "^1.0.0",
+        "typescript": "^4.3.2"
+    },
+    "browser": {
+        "fs": false,
+        "path": false,
+        "os": false
+    }
+}
